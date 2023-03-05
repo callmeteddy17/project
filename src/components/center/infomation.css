@@ -1,0 +1,29 @@
+.info {
+    font-family: 'Teko', sans-serif;
+    font-size: 5vh;
+    border: 0px;
+    border-radius: 50px;
+    margin: 40px 70px;
+    width: 40vw;
+    height: 60vh;
+    text-align: center;
+    position: relative;
+}
+
+.info p {
+    font-size: 3vh;
+}
+
+.learn-more {
+    height: 7vh;
+    width: 13vw;
+    font-size: 4vh;
+    padding-top: 1.8vh;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    cursor: pointer;
+}

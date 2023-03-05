@@ -1,25 +1,37 @@
 * {
     margin: 0;
 }
+
 .header {
     display: flex;
     height: 150px;
     justify-content: space-between;
     background-image: linear-gradient(rgba(0, 0, 0, 0.758), rgba(0, 0, 0, 0));
+    position: relative;
 }
 
 .icon {
-    height: 50px;
     padding: 0px;
     margin: 40px 60px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: 'Teko', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     cursor: pointer;
+    position: static;
+    order: 1;
+}
+.icon-right {
+    display: flex;
 }
 
+.icon p {
+    position: relative;
+    bottom: 8px;
+}
 #logo {
-    width: 33px;
+    height: 40px;
     margin-right: 20px;
+    border: 0px;
+    border-radius: 50%;
 }
